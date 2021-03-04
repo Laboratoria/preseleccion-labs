@@ -27,7 +27,7 @@ Para llevar a adelante este reto necesitaremos completar las siguientes tareas:
 
 ## Crea la estructura de la página web
 
-### 1. Creamos la estructura básica de cualquier documento `html`
+### Creamos la estructura básica de cualquier documento `html`
 
 ```html
 <!DOCTYPE html>
@@ -42,7 +42,7 @@ Para llevar a adelante este reto necesitaremos completar las siguientes tareas:
 </html>
 ```
 
-### 2. La personalizamos un poco
+#### ... y la personalizamos un poco
 
 Cambiamos el contenido de la etiqueta `<title>` con el texto `Edad en segundos`
 ```html
@@ -65,11 +65,11 @@ Revisa el resultado en tu navegador, debería ser algo parecido a esto
 {% next "Funcionalidad JS" %}
 
 
-## Crea un archivo `app.js`
+### Crea un archivo `app.js`
 
 [FIXME: video o screenshots o gif de como crear un archivo en el navegador de archivos]
 
-## Crea tu `prompt` y guarda el valor retornado en una variable
+### Crea tu `prompt` y guarda el valor retornado en una variable
 
 {% spoiler %}
 El método `prompt` de la web, es una función que toma un único argumento obligatorio,
@@ -87,14 +87,14 @@ Si quieres saber más sobre prompt revisa su [documentación en MDN](https://dev
 const edad = prompt('¿Cuál es tu edad?');
 ```
 
-## Integrar la funcionalidad `javascript` con la página `html`
+### Integrar la funcionalidad `javascript` con la página `html`
 
 Si tu recargas la página, verás que nada ha cambiado y el `prompt` nunca se muestra.
 
 Esto es porque el archivo `index.html` nunca está llamando a la funcionalidad
 `javascript` especificada en el archivo `app.js`.
 
-Para ello necesitamos importar el archivo `app.js` dentro de nuestro etiqueta `<head>`:
+Para ello necesitamos importar el archivo `app.js` dentro de nuestro etiqueta `<body>`:
 
 ```html
   <script type="text/javascript" src="app.js" />
@@ -111,7 +111,7 @@ console.log(edad);
 [FIXME: video ver valores de variables en la consola]
 {% endspoiler %}
 
-## Convierte la edad a segundos
+### Convierte la edad a segundos
 
 Dado que dentro de un año existe **365** días, y cada día tiene **24** horas, y que cada
 hora cuenta con **60** minutos y cada minuto con **60** segundos, entonces convertimos
@@ -129,3 +129,17 @@ Valida que la variable `edadEnSegundos` tiene el valor calculado, usando
 console.log(edadEnSegundos);
 ```
 {% endspoiler %}
+
+### La imprimimos en pantalla
+
+Para escribir directamente un contenido dentro de nuestra página web, usaremos
+el método `document.write()` en nuestro archivo `app.js`.
+
+Si quieres saber más puedes revisar su
+[documentación en MDN](https://developer.mozilla.org/es/docs/Web/API/Document/write).
+
+```js
+document.write("Tu edad es " + edad + ", en segundos sería " + edadEnSegundos);
+```
+
+## Cierre ? hablar de conversion automatica de tipos de datos ????
