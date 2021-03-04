@@ -29,3 +29,33 @@ Para llevar a adelante este reto necesitaremos completar las siguientes tareas:
 
 
 ## Crear estructura de la página web
+
+### 1. Creamos la estructura básica de cualquier documento `html`
+
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+  </head>
+  <body>
+
+  </body>
+</html>
+```
+
+### 2. La personalizamos un poco
+
+Cambiamos el contenido de la etiqueta `<title>` con el texto `Edad en segundos`
+```
+<title>Edad en segundos</title>
+```
+
+Y crearmos dentro de la etiqueta `<boby>` un heading principal (etiqueta `<h1>`),
+que diga _Coloca tu edad en años_.
+```
+  <body>
+    <h1>Coloca tu edad en años<h1/>
+  </body>
+```
