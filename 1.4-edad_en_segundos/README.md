@@ -20,4 +20,12 @@ Para llevar a adelante este reto necesitaremos completar las siguientes tareas:
 
 {% next "Comencemos" %}
 
+
 ## Crear un archivo `index.html`
+
+[video o screenshots o gif de como crear un archivo en el navegador de archivos]
+
+{% next "Estrucutura html" %}
+
+
+## Crear estructura de la página web
