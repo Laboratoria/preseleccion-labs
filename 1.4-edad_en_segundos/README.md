@@ -32,7 +32,7 @@ Para llevar a adelante este reto necesitaremos completar las siguientes tareas:
 
 ### 1. Creamos la estructura básica de cualquier documento `html`
 
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -48,13 +48,13 @@ Para llevar a adelante este reto necesitaremos completar las siguientes tareas:
 ### 2. La personalizamos un poco
 
 Cambiamos el contenido de la etiqueta `<title>` con el texto `Edad en segundos`
-```
+```html
 <title>Edad en segundos</title>
 ```
 
 Y crearmos dentro de la etiqueta `<boby>` un heading principal (etiqueta `<h1>`),
 que diga _Coloca tu edad en años_.
-```
+```html
   <body>
     <h1>Coloca tu edad en años<h1/>
   </body>
