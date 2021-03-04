@@ -97,7 +97,7 @@ Esto es porque el archivo `index.html` nunca está llamando a la funcionalidad
 Para ello necesitamos importar el archivo `app.js` dentro de nuestro etiqueta `<body>`:
 
 ```html
-  <script type="text/javascript" src="app.js" />
+  <script type="text/javascript" src="app.js"></script>
 ```
 
 {% spoiler %}
