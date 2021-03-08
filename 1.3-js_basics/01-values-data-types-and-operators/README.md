@@ -429,7 +429,7 @@ izquierda del signo de interrogación "escoge" cuál de los otros dos valores
 resultará. Cuando es verdadero, el valor central es escogido, y cuando es falso,
 el valor de la derecha se da como resultado.
 
-{% next "Tipos de datos: `null` y `undefined`" %}
+{% next "Tipos de datos: null y undefined" %}
 
 ## 4. `null` y `undefined`
 
