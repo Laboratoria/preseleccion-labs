@@ -41,9 +41,9 @@ Link con el procesos de aprender a aprender
 [CSS basics](https://lab.cs50.io/Laboratoria/preseleccion-labs/main/02-basics/02-css/)
 ### 1.3 Sandbox Javascript Basics
 
-- [Valores, tipos de datos y operadores](https://lab.cs50.io/Laboratoria/preseleccion-labs/main/02-basics/03-js/01-values-data-types-and-operators/)
-- [Variables](https://lab.cs50.io/Laboratoria/preseleccion-labs/main/02-basics/03-js/02-variables/)
-- [Comentarios](https://lab.cs50.io/Laboratoria/preseleccion-labs/main/02-basics/03-js/03-comments/)
+- [Comentarios](https://lab.cs50.io/Laboratoria/preseleccion-labs/main/02-basics/03-js/01-comments/)
+- [Valores, tipos de datos y operadores](https://lab.cs50.io/Laboratoria/preseleccion-labs/main/02-basics/03-js/02-values-data-types-and-operators/)
+- [Variables](https://lab.cs50.io/Laboratoria/preseleccion-labs/main/02-basics/03-js/03-variables/)
 
 ### 1.4 Sandbox Javascript en la práctica
 
