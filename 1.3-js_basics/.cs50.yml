@@ -2,5 +2,6 @@ lab50:
   window:
     - editor
     - readme
+    - terminal
 #   files: &lab50_files
 #     - !include src/*
