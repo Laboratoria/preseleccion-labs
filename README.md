@@ -40,11 +40,11 @@ Link con el procesos de aprender a aprender
 
 ### HTML
 
-[HTML basics](https://lab.cs50.io/Laboratoria/preseleccion-labs/main/02-basics/01-html/)
+- [HTML basics](https://lab.cs50.io/Laboratoria/preseleccion-labs/main/02-basics/01-html/)
 
 ### CSS
 
-[CSS basics](https://lab.cs50.io/Laboratoria/preseleccion-labs/main/02-basics/02-css/)
+- [CSS basics](https://lab.cs50.io/Laboratoria/preseleccion-labs/main/02-basics/02-css/)
 ### Javascript
 
 - [Comentarios](https://lab.cs50.io/Laboratoria/preseleccion-labs/main/02-basics/03-js/01-comments/)
