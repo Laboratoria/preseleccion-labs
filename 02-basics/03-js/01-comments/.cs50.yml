@@ -3,3 +3,11 @@ lab50:
     - editor
     - readme
     - terminal
+
+
+check50:
+  files:
+    - !exclude "*"
+    - !require "src/app.js"
+  dependencies:
+    - "git+https://github.com/cs50/check50_js.git#egg=check50_js"
