@@ -3,6 +3,6 @@ lab50:
     - editor
     - readme
     - browser
-    - terminal
+    - terminal: false
 #   files: &lab50_files
 #     - !include src/*
