@@ -27,6 +27,10 @@ nos dirigimos a la siguiente ruta de `lab`
 
 Para más información no olvides revisar la [documentación oficial](https://cs50.readthedocs.io/lab/).
 
+Todo el **contenido** ha sido extraido de la curricula actual:
+- https://github.com/Laboratoria/admission-curriculum/tree/master/admission/03-prework
+- https://laboratoria-admission-stg.firebaseapp.com/cohorts/cdmx-2021-01-application-js-cdmx011/topics/admission-js/04-prework/01-welcome-and-orientation
+
 ## 01 - Intro Challenge
 
 Intro y objetivo
@@ -56,4 +60,4 @@ Link con el procesos de aprender a aprender
 
 ## 04 - Challenge
 
-
+Revisitar reto y explicar dinamica
