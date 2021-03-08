@@ -3,5 +3,3 @@ lab50:
     - editor
     - readme
     - terminal
-files:
-  - !include app.js
