@@ -34,48 +34,23 @@ Link con el procesos de aprender a aprender
 
 ### 1.1 Sandbox HTML
 
-HTML basics
-
-https://lab.cs50.io/Laboratoria/preseleccion-labs/main/1.1-html/
+[HTML basics](https://lab.cs50.io/Laboratoria/preseleccion-labs/main/02-basics/01-html/)
 
 ### 1.2 Sandbox CSS
 
-https://lab.cs50.io/Laboratoria/preseleccion-labs/main/1.2-css/
-
-CSS basics
+[CSS basics](https://lab.cs50.io/Laboratoria/preseleccion-labs/main/02-basics/02-css/)
 ### 1.3 Sandbox Javascript Basics
 
-- Tipos de datos
-- Valores
-- Operadores
-- Variables
-- Strings
-- Numbers
-- Comentarios
+- [Valores, tipos de datos y operadores](https://lab.cs50.io/Laboratoria/preseleccion-labs/main/02-basics/03-js/01-values-data-types-and-operators/)
+- [Variables](https://lab.cs50.io/Laboratoria/preseleccion-labs/main/02-basics/03-js/02-variables/)
+- [Comentarios](https://lab.cs50.io/Laboratoria/preseleccion-labs/main/02-basics/03-js/03-comments/)
 
-https://lab.cs50.io/Laboratoria/preseleccion-labs/main/1.3-js_basics/
+### 1.4 Sandbox Javascript en la práctica
 
-### 1.4 Sandbox Javascript en la práctica 1: Edad en segundos
-
-Variables y tipos de datos
-
-#### Lab
-
-https://lab.cs50.io/Laboratoria/preseleccion-labs/main/1.4-edad_en_segundos/
-
-extraído de https://laboratoria-admission-stg.firebaseapp.com/cohorts/cdmx-2021-01-application-js-cdmx011/topics/admission-js/04-prework/09-guided-exercises
-
-### 1.5 Sandbox Javascript en la práctica 2: Convertidor de temperatura
-
-https://lab.cs50.io/Laboratoria/preseleccion-labs/main/1.5-convertidor_de_temperatura/
-
-### 1.6 Sandbox Javascript en la práctica 3: Ganancias y pérdidas
-
-https://lab.cs50.io/Laboratoria/preseleccion-labs/main/1.6-ganancias_y_perdidas/
-
-### 1.7 Sandbox Javascript en la práctica 4: Iniciales
-
-https://lab.cs50.io/Laboratoria/preseleccion-labs/main/1.7-iniciales/
+- [Edad en segundos](https://lab.cs50.io/Laboratoria/preseleccion-labs/main/03-guided-exercises/01-edad-en-segundos/)
+- [Convertidor de temperatura](https://lab.cs50.io/Laboratoria/preseleccion-labs/main/03-guided-exercises/02-convertidor-de-temperatura/)
+- [Ganancias y pérdidas](https://lab.cs50.io/Laboratoria/preseleccion-labs/main/03-guided-exercises/03-ganancias-y-perdidas/)
+- [Iniciales](https://lab.cs50.io/Laboratoria/preseleccion-labs/main/03-guided-exercises/04-iniciales/)
 
 ### 2 - Ahora si tu primera página web
 
