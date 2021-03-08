@@ -2,7 +2,7 @@
 
 ## Enunciado
 
-Crea una página web que solicite a la usuaria su edad **en años** utilizando `prompt()`,
+Crea una página web que solicite a la usuaria su edad **en años** utilizando `window.prompt()`,
 y pinte su edad **en segundos** en la pantalla utilizando `document.write()`.
 
 ## Análisis y lista de tareas
@@ -12,7 +12,7 @@ Para llevar a adelante este reto necesitaremos completar las siguientes tareas:
 - Crear un archivo `index.html`.
 - Crear la estructura de nuestra página web dentro de nuestro de `index.html`.
 - Crear un archivo `app.js`.
-- Preguntar la edad por medio del método `prompt()`.
+- Preguntar la edad por medio del método `window.prompt()`.
 - Convertir la edad ingresada en segundos.
 - Enlazar la funcionalidad `javascript` con la página `html`.
 - Mostrar el resultado en la página web por medio del método `document.write()`
@@ -69,10 +69,10 @@ Revisa el resultado en tu navegador, debería ser algo parecido a esto
 
 [FIXME: video o screenshots o gif de como crear un archivo en el navegador de archivos]
 
-### Crea tu `prompt` y guarda el valor retornado en una variable
+### Crea tu _prompt_ y guarda el valor retornado en una variable
 
 {% spoiler %}
-El método `prompt` de la web, es una función que toma un único argumento obligatorio,
+El método `window.prompt` de la web, es una función que toma un único argumento obligatorio,
 la pregunta a realizar y retorna el valor ingresado por la usuaria.
 
 Al ejecutarse esta función muestra en pantalla un diálogo con la pregunta y una caja de texto
@@ -80,7 +80,7 @@ para que la usuaria complete.
 
 [FIXME screenshot]
 
-Si quieres saber más sobre prompt revisa su [documentación en MDN](https://developer.mozilla.org/es/docs/Web/API/Window/prompt)
+Si quieres saber más sobre el método `window.prompt` revisa su [documentación en MDN](https://developer.mozilla.org/es/docs/Web/API/Window/prompt)
 {% endspoiler %}
 
 ```js
@@ -89,7 +89,7 @@ const edad = prompt('¿Cuál es tu edad?');
 
 ### Integrar la funcionalidad `javascript` con la página `html`
 
-Si tu recargas la página, verás que nada ha cambiado y el `prompt` nunca se muestra.
+Si tu recargas la página, verás que nada ha cambiado y el `window.prompt` nunca se muestra.
 
 Esto es porque el archivo `index.html` nunca está llamando a la funcionalidad
 `javascript` especificada en el archivo `app.js`.

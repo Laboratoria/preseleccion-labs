@@ -27,31 +27,33 @@ nos dirigimos a la siguiente ruta de `lab`
 
 Para más información no olvides revisar la [documentación oficial](https://cs50.readthedocs.io/lab/).
 
-## 1 - Warmup
+## 01 - Intro Challenge
 
 Intro y objetivo
 Link con el procesos de aprender a aprender
 
-### 1.1 Sandbox HTML
+## 02 - Minimal Fundamental Skills
+
+### HTML
 
 [HTML basics](https://lab.cs50.io/Laboratoria/preseleccion-labs/main/02-basics/01-html/)
 
-### 1.2 Sandbox CSS
+### CSS
 
 [CSS basics](https://lab.cs50.io/Laboratoria/preseleccion-labs/main/02-basics/02-css/)
-### 1.3 Sandbox Javascript Basics
+### Javascript
 
 - [Comentarios](https://lab.cs50.io/Laboratoria/preseleccion-labs/main/02-basics/03-js/01-comments/)
 - [Valores, tipos de datos y operadores](https://lab.cs50.io/Laboratoria/preseleccion-labs/main/02-basics/03-js/02-values-data-types-and-operators/)
 - [Variables](https://lab.cs50.io/Laboratoria/preseleccion-labs/main/02-basics/03-js/03-variables/)
 
-### 1.4 Sandbox Javascript en la práctica
+## 03 - Training: Guided exercises
 
 - [Edad en segundos](https://lab.cs50.io/Laboratoria/preseleccion-labs/main/03-guided-exercises/01-edad-en-segundos/)
 - [Convertidor de temperatura](https://lab.cs50.io/Laboratoria/preseleccion-labs/main/03-guided-exercises/02-convertidor-de-temperatura/)
 - [Ganancias y pérdidas](https://lab.cs50.io/Laboratoria/preseleccion-labs/main/03-guided-exercises/03-ganancias-y-perdidas/)
 - [Iniciales](https://lab.cs50.io/Laboratoria/preseleccion-labs/main/03-guided-exercises/04-iniciales/)
 
-### 2 - Ahora si tu primera página web
+## 04 - Challenge
 
 
