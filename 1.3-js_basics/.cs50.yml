@@ -2,7 +2,6 @@ lab50:
   window:
     - editor
     - readme
-    - browser
     - terminal
-#   files: &lab50_files
-#     - !include src/*
+files:
+  - !include app.js
