@@ -19,11 +19,11 @@ Las rutas de los labs tienen la siguiente forma: `https://lab.cs50.io/:owner/:re
 
 Entonces por ejemplo, para levantar la configuración en la siguiente ruta de `github`
 
-`https://github.com/Laboratoria/preseleccion-labs/blob/main/1.4-edad_en_segundos/.cs50.yml`
+`https://github.com/Laboratoria/preseleccion-labs/blob/main/02-basics/03-js/02-values-data-types-and-operators/.cs50.yml`
 
 nos dirigimos a la siguiente ruta de `lab`
 
-`https://lab.cs50.io/Laboratoria/preseleccion-labs/main/1.4-edad_en_segundos/`
+`https://lab.cs50.io/Laboratoria/preseleccion-labs/main/02-basics/03-js/02-values-data-types-and-operators/`
 
 Para más información no olvides revisar la [documentación oficial](https://cs50.readthedocs.io/lab/).
 
