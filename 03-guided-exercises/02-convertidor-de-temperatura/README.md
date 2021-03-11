@@ -85,7 +85,7 @@ Si quieres saber más sobre el método `window.prompt` revisa su [documentación
 {% endspoiler %}
 
 ```js
-const temperature = prompt('¿Cuál es la temperatura en Celsius?');
+const temperaturaCelsius = prompt('¿Cuál es la temperatura en Celsius?');
 ```
 
 ### Integrar la funcionalidad `javascript` con la página `html`
@@ -107,12 +107,12 @@ Recargas la página y ahora verás que el `window.prompt` se muestra.
 
 ## Convierte la temperatura Celsius (°C) a grados Fahrenheit (°F)
 
-Ahora que tenemos la temperatura en grados Celsius guardada en la variable `temperature`,
+Ahora que tenemos la temperatura en grados Celsius guardada en la variable `temperaturaCelsius`,
 vamos a convertirla con la fórmula matemática:
 `T(°F) = ( T(°C) × 1.8 ) + 32`.
 
 ```js
-const convertToFahrenheit = (temperature*1.8) + 32;
+const temperaturaFahrenheit = (temperaturaCelsius*1.8) + 32;
 ```
 
 ## La imprimimos en la consola
@@ -121,7 +121,7 @@ Para mostrar un contenido dentro de la consola, usaremos
 el método `console.log()` en nuestro archivo `app.js`.
 
 ```js
-console.log("La temperatura en Fahrenheit es " + convertToFahrenheit);
+console.log("La temperatura en Fahrenheit es " + temperaturaFahrenheit);
 ```
 
 {% spoiler %}
@@ -138,10 +138,10 @@ Como vimos anteriormente, tenemos varios tipos de datos y tenemos que tomar cuid
 
 ### Convertir el dato a number
 
-Pone el `prompt` dentro de `parseInt()` en la variable `temperature`:
+Pone el `prompt` dentro del metodo `parseInt()` en la variable `temperaturaCelsius`:
 
 ```js
-const temperature = parseInt(prompt('¿Cuál es la temperatura en Celsius?'));
+const temperaturaCelsius = parseInt(prompt('¿Cuál es la temperatura en Celsius?'));
 ```
 
 {% spoiler %}
@@ -150,5 +150,3 @@ Si quieres saber más sobre el método `parseInt` revisa su [documentación en M
 El archivo `app.js` debería ser algo parecido a esto
 [FIXME: screenshot]
 {% endspoiler %}
-
-## Cierre ? hablar de conversion automatica de tipos de datos ????
