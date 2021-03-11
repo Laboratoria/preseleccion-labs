@@ -132,3 +132,15 @@ console.log(gananciaNeta);
 ```
 
 {% endspoiler %}
+
+### La imprimimos en pantalla
+
+Para escribir directamente un contenido dentro de nuestra página web, usaremos
+el método `document.write()` en nuestro archivo `app.js`.
+
+Si quieres saber más puedes revisar su
+[documentación en MDN](https://developer.mozilla.org/es/docs/Web/API/Document/write).
+
+```js
+document.write("Tu ganancia neta es " + gananciaNeta);
+```
