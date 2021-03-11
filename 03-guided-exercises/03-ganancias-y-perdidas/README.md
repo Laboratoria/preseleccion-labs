@@ -82,7 +82,31 @@ Si quieres saber más sobre el método `window.prompt` revisa su [documentación
 {% endspoiler %}
 
 ```js
-const income = prompt("¿Cuál es el ingreso?");
-const costs = prompt("¿Cuál es el costo?");
-const taxParcent = prompt("¿Cuál es el porcentaje(%) de impuestos?");
+const ingreso = prompt("¿Cuál es el ingreso?");
+const costo = prompt("¿Cuál es el costo?");
+const porcentajeImpuesto = prompt("¿Cuál es el porcentaje(%) de impuestos?");
 ```
+
+### Integrar la funcionalidad `javascript` con la página `html`
+
+Si tu recargas la página, verás que nada ha cambiado y el `window.prompt` nunca se muestra.
+
+Esto es porque el archivo `index.html` nunca está llamando a la funcionalidad
+`javascript` especificada en el archivo `app.js`.
+
+Para ello necesitamos importar el archivo `app.js` dentro de nuestro etiqueta `<body>`:
+
+```html
+<script type="text/javascript" src="app.js"></script>
+```
+
+{% spoiler %}
+Valida que las variables `ingreso`, `costo`, y `porcentajeImpuesto` tiene el valor ingresado por la usuaria, usando
+`console.log`
+
+```js
+console.log(edad);
+```
+
+[FIXME: video ver valores de variables en la consola]
+{% endspoiler %}
