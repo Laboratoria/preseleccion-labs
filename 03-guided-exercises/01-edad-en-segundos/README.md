@@ -49,7 +49,7 @@ Cambiamos el contenido de la etiqueta `<title>` con el texto `Edad en segundos`
     <title>Edad en segundos</title>
 ```
 
-Y crearmos dentro de la etiqueta `<boby>` un heading principal (etiqueta `<h1>`),
+Y crearemos dentro de la etiqueta `<boby>` un heading principal (etiqueta `<h1>`),
 que diga _Coloca tu edad en años_.
 ```html
   <body>
