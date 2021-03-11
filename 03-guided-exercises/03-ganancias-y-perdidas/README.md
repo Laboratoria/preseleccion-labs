@@ -12,7 +12,7 @@ Para llevar a adelante este reto necesitaremos completar las siguientes tareas:
 - Crear la estructura de nuestra página web dentro de nuestro de `index.html`.
 - Crear un archivo `app.js`.
 - Preguntar ganancias, costos y porcentaje de impuestos por medio del método `window.prompt()`.
-- Calcular el resultado OPERACION AQUI
+- Calcular el resultado de ganancia bruta, ganancia neta e impuestos.
 - Enlazar la funcionalidad `javascript` con la página `html`.
 - Mostrar el resultado en la página web por medio del método `document.write()`
 
@@ -109,4 +109,26 @@ console.log(edad);
 ```
 
 [FIXME: video ver valores de variables en la consola]
+{% endspoiler %}
+
+### Calcula el resultado de ganancia bruta, ganancia neta e impuestos.
+
+INSERTA EXPLICACION AQUI
+
+```js
+const gananciaBruta = ingreso - costos;
+const impuestos = (gananciaBruta * porcentajeImpuesto) / 100;
+const gananciaNeta = gananciaBruta - impuestos;
+```
+
+{% spoiler %}
+Valida que las variables `gananciaBruta`, `impuestos`, y `gananciaNeta` tienen el valor calculado, usando
+`console.log`
+
+```js
+console.log(gananciaBruta);
+console.log(impuestos);
+console.log(gananciaNeta);
+```
+
 {% endspoiler %}
