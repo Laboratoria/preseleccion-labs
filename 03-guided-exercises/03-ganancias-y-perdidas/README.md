@@ -47,7 +47,7 @@ Cambiamos el contenido de la etiqueta `<title>` con el texto `Ganancias y perdid
 <title>Ganancias y perdidas</title>
 ```
 
-Y creamos dentro de la etiqueta `<boby>` un heading principal (etiqueta `<h1>`),
+Y creamos dentro de la etiqueta `<boby>` un heading principal (etiqueta `<h1`),
 que diga _Coloca tus ganancias, costos y porcentaje de impuestos_.
 
 ```html
@@ -62,3 +62,27 @@ Revisa el resultado en tu navegador, debería ser algo parecido a esto
 {% endspoiler %}
 
 {% next "Funcionalidad JS" %}
+
+### Crea un archivo `app.js`
+
+[FIXME: video o screenshots o gif de como crear un archivo en el navegador de archivos]
+
+### Crea varios _prompt_ y guarda los valores que retornan en distintas variables
+
+{% spoiler %}
+El método `window.prompt` de la web, es una función que toma un único argumento obligatorio,
+la pregunta a realizar y retorna el valor ingresado por la usuaria.
+
+Al ejecutarse esta función muestra en pantalla un diálogo con la pregunta y una caja de texto
+para que la usuaria complete.
+
+[FIXME screenshot]
+
+Si quieres saber más sobre el método `window.prompt` revisa su [documentación en MDN](https://developer.mozilla.org/es/docs/Web/API/Window/prompt)
+{% endspoiler %}
+
+```js
+const income = prompt("¿Cuál es el ingreso?");
+const costs = prompt("¿Cuál es el costo?");
+const taxParcent = prompt("¿Cuál es el porcentaje(%) de impuestos?");
+```
