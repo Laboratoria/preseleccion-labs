@@ -76,12 +76,13 @@ Revisa el resultado en tu navegador, debería ser algo parecido a esto
 El método `window.prompt` de la web, es una función que toma un único argumento obligatorio,
 la pregunta a realizar y retorna el valor ingresado por la usuaria.
 
-Al ejecutarse esta función muestra en pantalla un diálogo con la pregunta y una caja de texto
-para que la usuaria complete.
+Al ejecutarse esta función muestra en pantalla un diálogo
+con la pregunta y una caja de texto para que la usuaria complete.
 
 [FIXME screenshot]
 
-Si quieres saber más sobre el método `window.prompt` revisa su [documentación en MDN](https://developer.mozilla.org/es/docs/Web/API/Window/prompt)
+Si quieres saber más sobre el método `window.prompt`
+revisa su [documentación en MDN](https://developer.mozilla.org/es/docs/Web/API/Window/prompt)
 {% endspoiler %}
 
 ```js
@@ -90,7 +91,8 @@ const temperaturaCelsius = prompt('¿Cuál es la temperatura en Celsius?');
 
 ### Integrar la funcionalidad `javascript` con la página `html`
 
-Si tu recargas la página, verás que nada ha cambiado y el `window.prompt` nunca se muestra.
+Si tu recargas la página, verás que nada ha cambiado
+y el `window.prompt` nunca se muestra.
 
 Esto es porque el archivo `index.html` nunca está llamando a la funcionalidad
 `javascript` especificada en el archivo `app.js`.
@@ -133,7 +135,10 @@ Recargas la página y ahora verás que el `window.prompt` se muestra.
 [FIXME: video o screenshots o gif de como abrir la console en el navegador]
 
 {% spoiler %}
-Como vimos anteriormente, tenemos varios tipos de datos y tenemos que tomar cuidado. El método `window.prompt` devuelve una `string`, así para evitar conflictos, vamos a mejorar el código y convertir este dato en un tipo `number` con el metodo `parseInt()`.
+Como vimos anteriormente, tenemos varios tipos de datos y tenemos
+que tomar cuidado. El método `window.prompt` devuelve una `string`,
+así para evitar conflictos, vamos a mejorar el código y
+convertir este dato en un tipo `number` con el metodo `parseInt()`.
 {% endspoiler %}
 
 ### Convertir el dato a number
