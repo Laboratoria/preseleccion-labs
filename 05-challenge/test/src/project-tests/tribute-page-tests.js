@@ -193,12 +193,37 @@ export default function createTributePageTests() {
         );
       });
 
-      it(`When I press the theme-switcher again, the <body> class attribute should go back to "light-theme".`, function () {
+      it(`When I press the theme-switcher again, the <body> class attribute
+      should go back to "light-theme".`, function () {
         const switcher = document.getElementById('theme-switcher');
         switcher.click();
         assert(
           document.querySelectorAll('body.light-theme').length,
           '<body> class should now be "light-theme"'
+        );
+      });
+
+      it(`The font color and the background color should be different between
+      light and dark theme.`, function () {
+        const lightStyles = getComputedStyle(document.body);
+        const lightFontColor = lightStyles.color;
+        const lightBgColor = lightStyles.backgroundColor;
+
+        const switcher = document.getElementById('theme-switcher');
+        switcher.click();
+
+        const darkStyles = getComputedStyle(document.body);
+        const darkFontColor = darkStyles.color;
+        const darkBgColor = darkStyles.backgroundColor;
+
+        switcher.click();
+
+        console.log(lightFontColor, lightBgColor);
+        console.log(darkFontColor, darkBgColor);
+        assert(
+          lightFontColor !== darkFontColor && lightBgColor !== darkBgColor,
+          `Use different color and background-color properties for your
+          "light-theme" and "dark-theme" css classes`
         );
       });
 
