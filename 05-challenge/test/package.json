@@ -85,15 +85,5 @@
     "build": "run-p build:*",
     "build:projects-tests": "webpack --env.production",
     "build:projects": "gulp build"
-  },
-  "lint-staged": {
-    "*.{js,jsx}": [
-      "eslint --fix",
-      "git add"
-    ],
-    "*.{md,css,scss,yaml,yml,html}": [
-      "prettier --write",
-      "git add"
-    ]
   }
 }
