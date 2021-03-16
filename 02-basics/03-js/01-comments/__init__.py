@@ -6,18 +6,18 @@ def exists():
     """app.js exists."""
     check50.exists("src/app.js")
 
-@check50.check(exists)
-def prints_hello():
-    """prints "hello, world\\n" """
-    from re import match
+# @check50.check(exists)
+# def prints_hello():
+#     """prints "hello, world\\n" """
+    # from re import match
 
-    with js.capture_stdout() as stdout:
-        js.interface("app.js")
+    # with js.capture_stdout() as stdout:
+    #     js.interface("app.js")
 
-    actual = stdout.getvalue()
-    expected = "[Hh]ello, world!?\n"
-    if not match(expected, actual):
-        help = None
-        if match(expected[:-1], actual):
-            help = r"did you forget a newline ('\n') at the end of your printf string?"
-        raise check50.Mismatch("hello, world\n", actual, help=help)
+    # actual = stdout.getvalue()
+    # expected = "[Hh]ello, world!?\n"
+    # if not match(expected, actual):
+    #     help = None
+    #     if match(expected[:-1], actual):
+    #         help = r"did you forget a newline ('\n') at the end of your printf string?"
+    #     raise check50.Mismatch("hello, world\n", actual, help=help)
