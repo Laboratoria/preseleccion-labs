@@ -47,7 +47,7 @@ Cambiamos el contenido de la etiqueta `<title>` con el texto `Ganancias y perdid
 <title>Ganancias y perdidas</title>
 ```
 
-Y creamos dentro de la etiqueta `<boby>` un heading principal (etiqueta `<h1`),
+Y creamos dentro de la etiqueta `<body>` un heading principal (etiqueta `<h1`),
 que diga _Coloca tus ganancias, costos y porcentaje de impuestos_.
 
 ```html
