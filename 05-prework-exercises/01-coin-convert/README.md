@@ -1,36 +1,36 @@
-# coinConvert
+# Convertidor de monedas
 
-En este ejercicio nos concentraremos en asignar _valores_ en _variables_. El
-ejercicio ya incluye un _boilerplate_ (_plantilla_), con una _función_, dentro
-de la cual tendrás que re-emplazar los _comentarios_ `/* ??? */` por
-_expresiones_ que produzcan el _valor_ que queremos almacenar (_asignar_) en
-la _variable_ correspondiente.
+## Enunciado
+Crea una función que convierta una cantidad en dólares a 3 monedas diferentes (soles, pesos mexicanos y pesos chilenos)
 
-El _boilerplate_ (_plantilla_):
+TO DO: PREGUNTAR SI DEBERIA PEDIR ESTE DATO CON UN PROMPT DE NUEVO Y LUEGO IMPRIMIR EN PANTALLA EL RESULTADO?
 
-```js
-const coinConvert = (dollars) => {
-  // Asigna el monto equivalente en soles
-  const soles = /* ??? */;
+## Objetivo
+Asignar _valores_ a _variables_.
 
-  // Asigna el monto equivalente en pesos mexicanos
-  const pesosMexicanos = /* ??? */;
+## Análisis y lista de tareas
 
-  // Asigna el monto equivalente en pesos chilenos
-  const pesosChilenos = /* ??? */;
+Para llevar a adelante este reto necesitaremos completar las siguientes tareas:
 
-  return [soles, pesosMexicanos, pesosChilenos];
-};
-```
+- Abrir el archivo con el _boilerplate_ (_plantilla_) que tiene una _función flecha_ llamada `coinConvert`
+- Remplazar los _comentarios_ `/* ??? */` por
+_operaciones_ (_multiplicaciones_) que produzcan el _valor_ que queremos almacenar (_asignar_) en la _variable_ correspondiente.
 
-La _función_ del ejercicio se llama `coinConvert` y nos permitirá convertir una
-cantidad en dólares a 3 monedas diferentes (soles, pesos mexicanos y pesos
-chilenos).
+## Estructura de la función `coinConvert`
 
-Esta _función_ solo recibirá un _argumento_ (`dollars`), que es un _número_ que
-representa una cantidad en dólares, y retornará un _arreglo_ (_array_) con tres
-valores: la cantidad en soles, pesos mexicanos y pesos chilenos. Por ahora no
-nos tenemos que preocupar sobre la _función_ en sí o cómo retornar un _arreglo_,
+### Parámetro
+
+Es la variable que se define cuando se declara la función.
+
+La función `coinConverter` en el boilerplate(plantilla) tiene un solo _parámetro_ (`dolares`), que es un _número_ que representa una cantidad en dólares.
+
+### Valor de retorno
+
+Este es el valor que retorna nuestra función cuando termina de ejecutarse.
+
+La función `coinConverter` en el boilerplate(plantilla) tiene un valor de retorno que es un _arreglo_ (_array_) con tres valores: la cantidad en soles, pesos mexicanos y pesos chilenos
+
+Por ahora no nos tenemos que preocupar sobre la _función_ en sí o cómo retornar un _arreglo_,
 el _boilerplate_, ya se encarga de eso. Tú solo debes concentrarte en usar
 `dollars` junto con una operación para crear los valores que queremos asignar en
 las variables `soles`, `pesosMexicanos` y `pesosChilenos`.
