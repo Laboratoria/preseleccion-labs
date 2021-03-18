@@ -20,8 +20,6 @@ Para llevar a adelante este reto necesitaremos completar las siguientes tareas:
 
 ## Crea un archivo `index.html`
 
-## Crea un archivo `index.html`
-
 [FIXME: video o screenshots o gif de como crear un archivo en el navegador de archivos]
 
 ## Crea la estructura de la página web
