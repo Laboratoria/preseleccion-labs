@@ -1,5 +1,5 @@
 const Assert = require('chai').assert;
-const restaurantBill = require('../solution/restaurantBill');
+const restaurantBill = require('../src/restaurantBill');
 
 describe('restaurantBill()', () => {
   it('debería regresar $11, para 50', () => {

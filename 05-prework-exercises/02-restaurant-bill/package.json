@@ -1,7 +1,7 @@
 {
-  "name": "01-coin-convert",
+  "name": "02-restaurant-bill",
   "version": "1.0.0",
-  "description": "a program to exchange dollars into other currencies",
+  "description": "a program to calculate the final bill each has to pay",
   "main": "index.js",
   "directories": {
     "test": "test"

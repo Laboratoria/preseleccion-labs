@@ -15,7 +15,7 @@ Para llevar a adelante este reto necesitas completar las siguientes tareas:
 - Calcular el valor del impuesto
 - Calcular el valor total de la cuenta
 - Calcular el valor que cada una tiene que pagar
-- Retorna el monto calculado que cada una tiene que pagar.
+- Retornar el monto calculado que cada una tiene que pagar con el símbolo `$` delante.
 - Usar la terminal para:
   - Instalar las dependencias del proyecto
   - Ejecutar los tests
