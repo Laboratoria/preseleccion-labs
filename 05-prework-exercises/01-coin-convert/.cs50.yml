@@ -5,6 +5,6 @@ lab50:
     #    - browser
     - terminal
   files:
-    - !include src/*
-    - !include test/*
     - !include package.json
+    - !include test/*
+    - !include src/*
