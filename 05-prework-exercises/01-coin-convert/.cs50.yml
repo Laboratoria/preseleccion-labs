@@ -4,7 +4,7 @@ lab50:
     - readme
     #    - browser
     - terminal
-  files: &lab50_files
+  files:
     - !include src/*
     - !include test/*
     - !include package.json
