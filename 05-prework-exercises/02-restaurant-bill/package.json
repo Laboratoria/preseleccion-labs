@@ -1,0 +1,18 @@
+{
+  "name": "01-coin-convert",
+  "version": "1.0.0",
+  "description": "a program to exchange dollars into other currencies",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --verbose --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2"
+  }
+}
