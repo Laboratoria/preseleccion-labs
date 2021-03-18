@@ -1,11 +1,13 @@
 # Convertidor de monedas
 
 ## Enunciado
+
 Crea una función que convierta una cantidad en dólares a 3 monedas diferentes (soles, pesos mexicanos y pesos chilenos)
 
 TO DO: PREGUNTAR SI DEBERIA PEDIR ESTE DATO CON UN PROMPT DE NUEVO Y LUEGO IMPRIMIR EN PANTALLA EL RESULTADO?
 
 ## Objetivo
+
 Asignar _valores_ a _variables_.
 
 ## Análisis y lista de tareas
@@ -17,6 +19,9 @@ Para llevar a adelante este reto necesitas completar las siguientes tareas:
   - `soles`
   - `pesosMexicanos`
   - `pesosChilenos`
+- Usar la terminal para:
+  - Instalar las dependencias del proyecto
+  - Ejecutar los tests
 
 {% next "Comencemos" %}
 
@@ -40,7 +45,7 @@ Utiliza las siguientes tasas de cambio:
 
 ### Calculo del valor de la variable `soles`
 
-Remplaza los comentarios `/* ??? */` con la operación que para calcular el valor de soles.
+Multiplica dolares por el tipo de cambio. Remplaza los comentarios `/* ??? */` con la operación que para calcular el valor de soles.
 
 ```js
 const soles = dolares * 3.25;
@@ -54,7 +59,7 @@ const soles = dolares * 3.25;
 
 ### Calculo del valor de la variable `pesosMexicanos`
 
-Remplaza los comentarios `/* ??? */` con la operación que para calcular el valor de pesosMexicanos.
+Multiplica dolares por el tipo de cambio. Remplaza los comentarios `/* ??? */` con la operación que para calcular el valor de pesosMexicanos.
 
 ```js
 const pesosMexicanos = dolares * 18;
@@ -64,12 +69,11 @@ const pesosMexicanos = dolares * 18;
 [FIXME: screenshot del archivo hasta ahora]
 {% endspoiler %}
 
-
 {% next "Calculo de pesos chilenos" %}
 
 ### Calculo del valor de la variable `pesosChilenos`
 
-Remplaza los comentarios `/* ??? */` con la operación que para calcular el valor de pesosChilenos.
+Multiplica dolares por el tipo de cambio. Remplaza los comentarios `/* ??? */` con la operación que para calcular el valor de pesosChilenos.
 
 ```js
 const pesosChilenos = dolares * 660;
@@ -79,11 +83,30 @@ const pesosChilenos = dolares * 660;
 [FIXME: screenshot del archivo hasta ahora]
 {% endspoiler %}
 
+{% next "Usar la terminal" %}
 
-Si llegaste hasta aquí tu función ya está completa!
-[FIXME: Mostrar como correr tests? o como verificar que lo logró?]
+## Usa de la terminal
+
+### Instala las dependencias del proyecto
+
+Escribe el siguiente comando en la terminal:
+
+```
+npm install
+```
+
+### Ejecuta los tests
+
+Escribe el siguiente comando en la terminal:
+
+```
+npm test
+```
+
+Si llegaste hasta aquí y tus test pasaron tu función ya está completa!
 
 {% next "Contenido extra" %}
+
 ## Estructura de la función `coinConvert`
 
 ### Parámetro
