@@ -1,0 +1,9 @@
+{
+  "name": "laboratoria-prework-js-comments",
+  "scripts": {
+    "submit": "node submit"
+  },
+  "devDependencies": {
+    "archiver": "^5.3.0"
+  }
+}
