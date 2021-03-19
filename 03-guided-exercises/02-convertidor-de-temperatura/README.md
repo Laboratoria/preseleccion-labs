@@ -12,7 +12,7 @@ La fórmula matemática para pasar de °C a °F es: `T(°F) = ( T(°C) × 1.8 ) 
 Para llevar a adelante este reto necesitaremos completar las siguientes tareas:
 
 - Crear un archivo `index.html`.
-- Crear la estructura de nuestra página web dentro de nuestro de `index.html`.
+- Crear la estructura de nuestra página web dentro de nuestro `index.html`.
 - Crear un archivo `app.js`.
 - Integrar la funcionalidad `javascript` con la página `html`
 - Preguntar la temperatura en Celsius (°C) por medio del método `window.prompt()`.
