@@ -143,7 +143,7 @@ convertir este dato en un tipo `number` con el metodo `parseInt()`.
 
 ### Convertir el dato a number
 
-Pone el `prompt` dentro del metodo `parseInt()` en la variable `temperaturaCelsius`:
+Pon el `prompt` dentro del metodo `parseInt()` en la variable `temperaturaCelsius`:
 
 ```js
 const temperaturaCelsius = parseInt(prompt('¿Cuál es la temperatura en Celsius?'));
