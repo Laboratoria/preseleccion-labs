@@ -239,7 +239,7 @@ Si quieres saber más puedes revisar su
 document.write("Tus iniciales son " + primeraInicial + segundaInicial);
 ```
 
-Las iniciales ya aparecen en la pantalla.. pero puedo testear que cuando escribimos
+Las iniciales ya aparecen en la pantalla... pero puedo testear que cuando escribimos
 un nombre como "ana martinez", las iniciales deberiam ser "AM" y no "am".
 Entonces, vamos a convertir las iniciales a mayúsculas
 
