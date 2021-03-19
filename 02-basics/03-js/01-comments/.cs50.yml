@@ -4,9 +4,3 @@ lab50:
     - readme
     - terminal
 
-check50:
-  files:
-    - !exclude "*"
-    - !require "src/app.js"
-  dependencies:
-    - "check50_js.py"
