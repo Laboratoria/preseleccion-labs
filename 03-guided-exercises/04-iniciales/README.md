@@ -2,11 +2,16 @@
 
 ## Enunciado
 
-Crea un programa que pide el nombre y apellido al usuario. El
-usuario debe ingresar dos palabras separadas por un espacio, por ejemplo:
-"Ana Martinez". El programa debe devolver las iniciales **en mayúsculas**.
-Veamos unos ejemplos: "ana martinez" y "Ana Martinez" devuelven las iniciales
-"AM". "Michelle Seguil" y "michelle seguil" devuelven "MS"
+Crea un programa que pida el nombre y apellido a la usuaria,
+y devuelva las iniciales **en mayúsculas**.
+
+La usuaria debe ingresar dos palabras separadas por un espacio, por ejemplo:
+"Ana Martinez".
+
+Veamos unos ejemplos:
+
+- "ana martinez" y "Ana Martinez" devuelven las iniciales "AM"
+- "Michelle Seguil" y "michelle seguil" devuelven "MS"
 
 ## El programa
 
