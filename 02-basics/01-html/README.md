@@ -139,8 +139,39 @@ Cualquier valor entre `<!--` y `-->` no se mostrará en su sitio web y no afecta
 funcionamiento o la estructura de la página. Se deja como mensaje a las personas
 que leen y editan el HTML.
 
-## Formato de texto
-
 ## Elementos populares
+
+Un elemento muy comun es el elemento de _heading_ `h1` (encabezado).
+Hay 6 niveles `h1` hasta `h6`, sendo `h1` el nivel de sección más alto o más importante.
+
+```html
+<h1>Este es heading 1</h1>
+<h2>Este es heading 2</h2>
+<h3>Este es heading 3</h3>
+<h4>Este es heading 4</h4>
+```
+
+{% spoiler %}
+Recuerde, todo lo que desea que se muestre en su página web
+debe ir entre las etiquetas de apertura `<body>` y de cierre `</body>`.
+{% endspoiler %}
+
+Otro elementos es de _párrafo_ `p`, que comienza con la etiqueta de inicio `<p>` y termina con la etiqueta de finalización `</p>`. El texto que se encuentra entre las etiquetas de apertura y de cierre es el contenido del elemento.
+
+![El elemento `p`](https://user-images.githubusercontent.com/25912510/35747217-7bb85acc-0817-11e8-9248-5b00951cf963.png)
+
+```html
+<p>Esto es un párrafo</p>
+```
+
+{% spoiler %}
+Testea añadir párrafos y encabezados de varios niveles en su código,
+pero recuerde que todo lo que desea que se muestre en su página web
+debe ir entre las etiquetas de apertura `<body>` y de cierre `</body>`.
+
+Existen muchos más elementos y etiquetas HTML, que aprenderás en su momento.
+{% endspoiler %}
+
+### Formato de texto
 
 ## Atributos HTML
