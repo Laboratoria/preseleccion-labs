@@ -1,4 +1,14 @@
-# HTML
+# HTML basics
+
+- Tipo: `lectura`
+- Formato: `self-paced`
+- Duración: `60min`
+
+## Objetivos de Aprendizaje
+
+- Entender qué es HTML
+- Aprender la sintaxis básica de HTML.
+- Conocer la estructura de los elementos HTML y las etiquetas mas populares.
 
 ## El documento HTML
 
