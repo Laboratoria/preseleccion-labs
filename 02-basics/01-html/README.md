@@ -40,7 +40,7 @@ saber que el tipo de este documento es HTML y no es solo un archivo de texto nor
 <!DOCTYPE html>
 ```
 
-Los elementos de HTML son las etiquetas, caracterizados por los signos "<" y ">".
+Los elementos de HTML son las etiquetas, caracterizados por los signos `<` y `>`.
 La mayoría de los elementos requieren una etiqueta de apertura y otra de cierre.
 
 Así, el primer elemento que vamos a necesitar es el propio elemento HTML, que es donde
@@ -54,7 +54,7 @@ va **todo el HTML** de su archivo, y puede agregarlo abriéndolo con `<html>` y 
 ```
 
 {% spoiler %}
-ALERTA: `<!DOCTYPE html>` es una declaración y no una etiqueta HTML!
+**ALERTA:** `<!DOCTYPE html>` es una declaración y no una etiqueta HTML!
 {% endspoiler %}
 
 Entre las etiquetas de html, vamos a tener las etiquetas de apertura y cierre de `head`
@@ -73,7 +73,7 @@ llamadas de *metadatos*.
 
 El elemento `meta` no hay etiqueta de cierre y representa [metadatos](https://developer.mozilla.org/es/docs/Glossary/Metadata)
 
-El elemento `title` (<title>) define el título del documento que se muestra
+El elemento `title` define el título del documento que se muestra
 en la barra de título del navegador o en la pestaña de una página
 {% endspoiler %}
 
