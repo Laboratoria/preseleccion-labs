@@ -114,6 +114,21 @@ Darse cuenta de que ese mismo código sin indentación es muy más dificil de le
 
 {% endspoiler %}
 
+### Comentarios
+
+Los _comentarios_ permitem dejar notas sobre su código, su funcionalidad o indicar
+los cambios necesarios para el futuro para las personas que leen o editan su código.
+
+Se visualizan así:
+
+```html
+<!-- This is a comment -->
+```
+
+Cualquier valor entre `<!--` y `-->` no se mostrará en su sitio web y no afectará el
+funcionamiento o la estructura de la página. Se deja como mensaje a las personas
+que leen y editan el HTML.
+
 ## Formato de texto
 
 ## Elementos populares
