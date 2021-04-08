@@ -12,7 +12,7 @@
 
 ## El documento HTML
 
-HTML (HyperText Markup Language) no es un lenguaje de programaciónes,
+HTML (HyperText Markup Language) no es un lenguaje de programación,
 es un lenguaje de marcado que es utilizado para crear la estructura
 de un sitio web. Para crear este sitio, se empieza creando
 un documento en formato HTML. Esto es muy parecido a crear un documento
@@ -156,13 +156,15 @@ Recuerde, todo lo que desea que se muestre en su página web
 debe ir entre las etiquetas de apertura `<body>` y de cierre `</body>`.
 {% endspoiler %}
 
-Otro elementos es de _párrafo_ `p`, que comienza con la etiqueta de inicio `<p>` y termina con la etiqueta de finalización `</p>`. El texto que se encuentra entre las etiquetas de apertura y de cierre es el contenido del elemento.
-
-![El elemento `p`](https://user-images.githubusercontent.com/25912510/35747217-7bb85acc-0817-11e8-9248-5b00951cf963.png)
+Otro elemento es de _párrafo_ `p`, que comienza con la etiqueta de inicio `<p>`
+y termina con la etiqueta de finalización `</p>`. El texto que se encuentra
+entre las etiquetas de apertura y de cierre es el contenido del elemento.
 
 ```html
 <p>Esto es un párrafo</p>
 ```
+
+![El elemento `p`](https://user-images.githubusercontent.com/25912510/35747217-7bb85acc-0817-11e8-9248-5b00951cf963.png)
 
 {% spoiler %}
 Testea añadir párrafos y encabezados de varios niveles en su código,
@@ -173,5 +175,31 @@ Existen muchos más elementos y etiquetas HTML, que aprenderás en su momento.
 {% endspoiler %}
 
 ### Formato de texto
+
+Si escribe un párrafo, es posible que desee formatear una palabra o una frase, por ejemplo:
+
+> "HTML **no es** un lenguaje de programación,
+> es un **_lenguaje de marcado_** que es utilizado para crear la estructura
+> de un _sitio web_. Para crear este sitio, se empieza creando
+> un documento en formato HTML."
+
+Una forma de poner cualquier texto en negrito o cursivo es utilizando
+las etiquetas `strong` y `em`.
+
+```html
+<p> HTML <strong>no es</strong> es un lenguaje de programación,
+es un <strong><em>lenguaje de marcado</em></strong> que es utilizado para crear la estructura
+de un <em>sitio web</em>. Para crear este sitio, se empieza creando
+un documento en formato HTML.
+</p>
+```
+
+{% spoiler %}
+Testea añadir párrafos y encabezados de varios niveles en su código,
+pero recuerde que todo lo que desea que se muestre en su página web
+debe ir entre las etiquetas de apertura `<body>` y de cierre `</body>`.
+
+Existen muchos más elementos y etiquetas HTML, que aprenderás en su momento.
+{% endspoiler %}
 
 ## Atributos HTML
