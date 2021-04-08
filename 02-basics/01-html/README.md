@@ -203,3 +203,19 @@ Existen muchos más elementos y etiquetas HTML, que aprenderás en su momento.
 {% endspoiler %}
 
 ## Atributos HTML
+
+Los atributos contienen información extra sobre el elemento y son escritos
+en _las etiquetas de inicio._ El valor del atributo sigue después del signo `=` y
+es envuelto en comillas, seguiendo esa estructura:
+
+```html
+<etiqueta atributo="valor del atributo "></etiqueta>
+```
+
+[ Poner texto para ejemplos de href y de img ]
+
+> Puede leer más sobre atributos en ese [link aqui](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#attributes)
+
+```html
+<p>Puede leer más sobre atributos en ese <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#attributes">link aqui</a>.</p>
+```
