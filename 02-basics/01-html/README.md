@@ -124,6 +124,8 @@ Darse cuenta de que ese mismo código sin indentación es muy más dificil de le
 
 {% endspoiler %}
 
+{% next "Comentarios" %}
+
 ### Comentarios
 
 Los _comentarios_ permitem dejar notas sobre su código, su funcionalidad o indicar
@@ -138,6 +140,8 @@ Se visualizan así:
 Cualquier valor entre `<!--` y `-->` no se mostrará en su sitio web y no afectará el
 funcionamiento o la estructura de la página. Se deja como mensaje a las personas
 que leen y editan el HTML.
+
+{% next "Elementos" %}
 
 ## Elementos populares
 
@@ -202,6 +206,8 @@ debe ir entre las etiquetas de apertura `<body>` y de cierre `</body>`.
 Existen muchos más elementos y etiquetas HTML, que aprenderás en su momento.
 {% endspoiler %}
 
+{% next "Atributos" %}
+
 ## Atributos HTML
 
 Los atributos contienen información extra sobre el elemento y son escritos
@@ -219,3 +225,5 @@ es envuelto en comillas, seguiendo esa estructura:
 ```html
 <p>Puede leer más sobre atributos en ese <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#attributes">link aqui</a>.</p>
 ```
+
+[ explicar sobre la tag meta y el atributo charset ]
