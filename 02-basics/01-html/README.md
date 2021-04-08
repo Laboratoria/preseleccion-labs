@@ -199,11 +199,9 @@ un documento en formato HTML.
 ```
 
 {% spoiler %}
-Testea añadir párrafos y encabezados de varios niveles en su código,
-pero recuerde que todo lo que desea que se muestre en su página web
+Testea formatar palavras y párrafos.
+Rero recuerde que todo lo que desea que se muestre en su página web
 debe ir entre las etiquetas de apertura `<body>` y de cierre `</body>`.
-
-Existen muchos más elementos y etiquetas HTML, que aprenderás en su momento.
 {% endspoiler %}
 
 {% next "Atributos" %}
