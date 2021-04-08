@@ -20,7 +20,7 @@ con formato word, excel o powerpoint.
 
 {% spoiler %}
 
-Si quieres saber más revisa su [documentación en MDN](https://developer.mozilla.org/es/docs/Web/HTML)
+Si quieres saber más revisa su [documentación en MDN](https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
 
 {% endspoiler %}
 
