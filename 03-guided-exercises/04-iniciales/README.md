@@ -108,7 +108,7 @@ revisa su [documentación en MDN](https://developer.mozilla.org/es/docs/Web/API/
 {% endspoiler %}
 
 ```js
-const nombre = prompt('¿Cuál es tu nombre y apellido?');
+const nombre = window.prompt('¿Cuál es tu nombre y apellido?');
 ```
 
 ### Actualiza la pagina web, abra la consola y testea la variable
@@ -118,8 +118,8 @@ const nombre = prompt('¿Cuál es tu nombre y apellido?');
 [FIXME: video o screenshots o gif de como abrir la console en el navegador
 o puede referirse al ejercicio 02 para ver como hacer]
 
-En la consola, escriba la variable `nombre` y presione `enter`.
-Deve aparecer el valor ingresado en el _prompt_.
+En la consola, escribe la variable `nombre` y presiona `enter`.
+Debe aparecer el valor ingresado en el _prompt_.
 
 {% endspoiler %}
 
@@ -130,11 +130,11 @@ Deve aparecer el valor ingresado en el _prompt_.
 Para obtener la primera inicial, vamos a usar el método `slice()`.
 
 {% spoiler "Pista" %}
-El método `slice()` toma dos argumentos y sirve para cortar la `string`.
-El primero es donde vas a comenzar a cortar y el segundo donde vas a terminar.
+El método `slice()` toma dos argumentos y sirve para cortar una "porción" del `string`.
+El primer argumento indica en qué posición del `string` vas a comenzar a cortar y el segundo dónde vas a terminar.
 
-ATENCIÓN: La posición 0 es la *primera* letra de la _string_.
-La posición  1, es la segunda letra y así sucesivamente.
+ATENCIÓN: La *primera* letra del _string_ está en la posición 0,
+la *segunda* letra en la posición 1, y así sucesivamente
 
 Testea en su consola el é y cambia las posiciones como quiera para entender:
 
@@ -158,52 +158,52 @@ const primeraInicial = nombre.slice(0,1);
 
 ### Obteniendo la inicial del apellido
 
-Solo con el é `slice()` no es possible obtener la segunda inicial,
-por qué su posición no es fixa...
+Solo con `slice()` no es posible obtener la segunda inicial,
+porque su posición no es fija...
 
-Por ejemplo, para el nombre "Ana Martinez", la segunda inicial es la posición 4,
-pero para "Michelle Seguil" es la posición 9.
+Por ejemplo, para el nombre "Ana Martinez", la segunda inicial está en la posición 4,
+pero para "Michelle Seguil" está en la posición 9.
 
-¿Como podemos hacer, entonces?
+¿Cómo podemos hacer entonces?
 
-Vamos a:
+Veamos:
 
 #### Buscar la posición de la segunda inicial
 
 {% spoiler "Pista"%}
-Una condición común es que la primera letra del apellido es después del espacio.
-Así, vamos encuentrar la posición del espacio primero, pois sabemos que
-la posición de la segunda inicial es la seguiente.
+Una condición común es que la primera letra del apellido está inmediatamente después del espacio.
+Entonces, primero vamos a encontrar la posición del espacio, ya que sabemos que
+la posición de la segunda inicial es la siguiente.
 
 1.1 Posición del espacio
 
-Vamos utilizar el método `indexOf()` que toma un argumento y sirve para encuentrar
-la posición del argumento dentro de la _string_. La posición es llamada de `index`.
+Vamos utilizar el método `indexOf()` que toma un argumento y sirve para encontrar
+la posición del argumento dentro del _string_. Esa posición es llamada `index`.
 
-Testea en su consola el método y cambia el argumento como quiera:
+Testea en su consola el método y cambia el argumento:
 
 ```js
-//"Ana Martinez!" es la string dónde vamos a procurar la posición del argumento
-// el argumento es el caractere " " (espacio)
+//"Ana Martinez!" es el `string` dónde vamos a buscar la posición del argumento
+// el argumento es el carácter " " (espacio)
 
 "Ana Martinez!".indexOf(" ")
 ```
 
-ATENCIÓN: La posición 0 es la *primera* letra de la _string_.
-La posición  1, es la segunda letra y así sucesivamente.
+ATENCIÓN: La *primera* letra del _string_ está en la posición 0,
+la *segunda* letra en la posición 1, y así sucesivamente
 
 Si quieres saber más sobre el método `indexOf()` para _strings_
 revisa su [documentación en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf)
 
 1.2 Posición de la segunda inicial
 
-La posición de la segunda inicial es la seguiente del espacio, portanto es:
+La posición de la segunda inicial es la que le sigue al espacio, por tanto:
 
 ```js
 const posicionSegundaInicial = "Ana Martinez".indexOf(" ") + 1
 ```
 
-Como queremos hacer esto con el nombre del prompt,
+Como queremos hacer esto con el nombre obtenido a través de `window.prompt`,
 vamos a cambiar el ejemplo por la variable
 
 ```js
@@ -216,10 +216,10 @@ const posicionSegundaInicial = nombre.indexOf(" ") + 1
 
 {% spoiler "Pista"%}
 Ahora que ya tenemos la posición (index) de la segunda inicial,
-vamos a usar el é slice novamente..
+vamos a usar `slice` nuevamente..
 
 Vamos a cortar la _string_ comenzando en la posición de la segunda inicial y
-terminando un caractere después:
+terminando un carácter después:
 
 ```js
 const segundaInicial = nombre.slice(posicionSegundaInicial, posicionSegundaInicial + 1)
@@ -245,17 +245,17 @@ document.write("Tus iniciales son " + primeraInicial + segundaInicial);
 ```
 
 Las iniciales ya aparecen en la pantalla... pero puedo testear que cuando escribimos
-un nombre como "ana martinez", las iniciales deberiam ser "AM" y no "am".
+un nombre como "ana martinez" (todo en minúsculas), las iniciales deberiam ser "AM" y no "am".
 Entonces, vamos a convertir las iniciales a mayúsculas
 
 ### Convertir las iniciales a mayúsculas
 
 Para convertir cualquer _string_ en mayúsculas, vamos a usar el método `toUpperCase()`
-en las dos letreas iniciales
+en cada una de las iniciales
 
 {% spoiler %}
 El método `toUpperCase()` es una función que no toma un argumento,
-y retorna toda la _string_ en mayúsculas.
+y retorna todo el _string_ en mayúsculas.
 
 Si quieres saber más sobre el método `toUpperCase()` revisa su [documentación en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase)
 
