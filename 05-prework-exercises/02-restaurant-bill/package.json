@@ -7,12 +7,11 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha --verbose --coverage"
+    "test": "jest --verbose --coverage"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chai": "^4.3.4",
-    "mocha": "^8.3.2"
+    "jest": "^26.6.3"
   }
 }

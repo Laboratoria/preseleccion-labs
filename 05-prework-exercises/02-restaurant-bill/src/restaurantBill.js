@@ -1,7 +1,7 @@
-const restaurantBill = (cuenta) => {
-  const impuesto = /* ??? */
-
-  /* ??? */
+function restaurantBill(cuenta, cantidadDeAmigas) {
+  const impuesto = /* ??? */;
+  const totalDeLaCuenta = /* ??? */;
+  const valorFinal = /* ??? */;
 
   return /* ??? */
 };
