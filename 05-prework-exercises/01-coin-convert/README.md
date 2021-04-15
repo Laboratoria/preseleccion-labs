@@ -4,10 +4,6 @@
 
 Crea una función que convierta una cantidad en dólares a 5 monedas diferentes (soles, pesos mexicanos, pesos chilenos, pesos colombianos y reales)
 
-## Objetivo
-
-Asignar _valores_ a _variables_.
-
 ## Análisis y lista de tareas
 
 Para llevar a adelante este reto necesitas completar las siguientes tareas:
@@ -27,7 +23,21 @@ Para llevar a adelante este reto necesitas completar las siguientes tareas:
 
 ## Abre el archivo `coinConvert.js`
 
-En el lado derecho de tu pantalla asegurate que estas abriendo y trabajando en el archivo coinConvert.js
+En el lado derecho de tu pantalla asegurate que estas abriendo y trabajando en el archivo coinConvert.js.
+
+### Estructura de la función `coinConvert`
+
+#### Parámetro
+
+Es la variable que se define cuando se declara la función.
+
+La función `coinConverter` en el boilerplate(plantilla) tiene un solo _parámetro_ (`dolares`), que es un _número_ que representa una cantidad en dólares.
+
+#### Valor de retorno
+
+Este es el valor que retorna nuestra función cuando termina de ejecutarse.
+
+La función `coinConverter` en el boilerplate(plantilla) tiene un valor de retorno que es un _arreglo_ (_array_) con cinco valores: la cantidad en soles, pesos mexicanos, pesos chilenos, pesos colombianos y reales.
 
 {% next "Funcionalidad JS" %}
 
@@ -102,19 +112,3 @@ npm test
 ```
 
 Si llegaste hasta aquí y tus test pasaron tu función ya está completa!
-
-{% next "Contenido extra" %}
-
-## Estructura de la función `coinConvert`
-
-### Parámetro
-
-Es la variable que se define cuando se declara la función.
-
-La función `coinConverter` en el boilerplate(plantilla) tiene un solo _parámetro_ (`dolares`), que es un _número_ que representa una cantidad en dólares.
-
-### Valor de retorno
-
-Este es el valor que retorna nuestra función cuando termina de ejecutarse.
-
-La función `coinConverter` en el boilerplate(plantilla) tiene un valor de retorno que es un _arreglo_ (_array_) con tres valores: la cantidad en soles, pesos mexicanos y pesos chilenos
