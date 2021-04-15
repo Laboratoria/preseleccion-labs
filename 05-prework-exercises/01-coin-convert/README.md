@@ -2,9 +2,7 @@
 
 ## Enunciado
 
-Crea una función que convierta una cantidad en dólares a 3 monedas diferentes (soles, pesos mexicanos y pesos chilenos)
-
-TO DO: PREGUNTAR SI DEBERIA PEDIR ESTE DATO CON UN PROMPT DE NUEVO Y LUEGO IMPRIMIR EN PANTALLA EL RESULTADO?
+Crea una función que convierta una cantidad en dólares a 5 monedas diferentes (soles, pesos mexicanos, pesos chilenos, pesos colombianos y reales)
 
 ## Objetivo
 
@@ -19,6 +17,8 @@ Para llevar a adelante este reto necesitas completar las siguientes tareas:
   - `soles`
   - `pesosMexicanos`
   - `pesosChilenos`
+  - `pesosColombianos`
+  - `reales`
 - Usar la terminal para:
   - Instalar las dependencias del proyecto
   - Ejecutar los tests
@@ -27,7 +27,7 @@ Para llevar a adelante este reto necesitas completar las siguientes tareas:
 
 ## Abre el archivo `coinConvert.js`
 
-[FIXME: video o screenshot o gif para mostrar donde esta el archivo]
+En el lado derecho de tu pantalla asegurate que estas abriendo y trabajando en el archivo coinConvert.js
 
 {% next "Funcionalidad JS" %}
 
@@ -36,52 +36,50 @@ Para llevar a adelante este reto necesitas completar las siguientes tareas:
 Utiliza las siguientes tasas de cambio:
 
 ```text
-1 dólar = 3.25 soles peruanos
-1 dólar = 18 pesos mexicanos
-1 dólar = 660 pesos chilenos
+1 dólar = 3.65 soles peruanos
+1 dólar = 19.96 pesos mexicanos
+1 dólar = 699.50 pesos chilenos
+1 dólar = 3611.50 pesos colombianos
+1 dólar = 5.62 reales
 ```
 
 {% next "Calculo de soles" %}
 
 ### Calculo del valor de la variable `soles`
 
-Multiplica dolares por el tipo de cambio. Remplaza los comentarios `/* ??? */` con la operación que para calcular el valor de soles.
+Asigna a la variable `soles` el resultado de multiplicar `dolares` por el tipo de cambio.
 
 ```js
-const soles = dolares * 3.25;
+const soles = dolares * 3.65;
 ```
-
-{% spoiler %}
-[FIXME: screenshot del archivo hasta ahora]
-{% endspoiler %}
 
 {% next "Calculo de pesos mexicanos" %}
 
 ### Calculo del valor de la variable `pesosMexicanos`
 
-Multiplica dolares por el tipo de cambio. Remplaza los comentarios `/* ??? */` con la operación que para calcular el valor de pesosMexicanos.
+Asigna a la variable `pesosMexicanos` el resultado de multiplicar `dolares` por el tipo de cambio.
 
 ```js
-const pesosMexicanos = dolares * 18;
+const pesosMexicanos = dolares * 19.96;
 ```
-
-{% spoiler %}
-[FIXME: screenshot del archivo hasta ahora]
-{% endspoiler %}
 
 {% next "Calculo de pesos chilenos" %}
 
 ### Calculo del valor de la variable `pesosChilenos`
 
-Multiplica dolares por el tipo de cambio. Remplaza los comentarios `/* ??? */` con la operación que para calcular el valor de pesosChilenos.
+Repite el proceso para `pesosChilenos`
 
-```js
-const pesosChilenos = dolares * 660;
-```
+{% next "Calculo de pesos colombianos" %}
 
-{% spoiler %}
-[FIXME: screenshot del archivo hasta ahora]
-{% endspoiler %}
+### Calculo del valor de la variable `pesosColombianos`
+
+Repite el proceso para `pesosColombianos`
+
+{% next "Calculo de reales" %}
+
+### Calculo del valor de la variable `reales`
+
+Repite el proceso para `reales`
 
 {% next "Usar la terminal" %}
 
