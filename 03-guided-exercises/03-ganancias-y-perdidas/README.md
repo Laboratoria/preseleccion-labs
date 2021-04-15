@@ -1,9 +1,8 @@
-# Edad en segundos
+# Ganancias y Perdidas
 
 ## Enunciado
 
-Crea una página web que solicite a la usuaria su edad **en años** utilizando `window.prompt()`,
-y pinte su edad **en segundos** en la pantalla utilizando `document.write()`.
+Crear un programa que pide los ingresos, los costos y el % de impuestos, y calcula la ganancia después de impuestos. Debe imprimir el resultado en la web con el símbolo $ adelante.
 
 ## Análisis y lista de tareas
 
@@ -12,14 +11,12 @@ Para llevar a adelante este reto necesitaremos completar las siguientes tareas:
 - Crear un archivo `index.html`.
 - Crear la estructura de nuestra página web dentro de nuestro de `index.html`.
 - Crear un archivo `app.js`.
-- Preguntar la edad por medio del método `window.prompt()`.
-- Convertir la edad ingresada en segundos.
+- Preguntar ganancias, costos y porcentaje de impuestos por medio del método `window.prompt()`.
+- Calcular el resultado de ganancia bruta, ganancia neta e impuestos.
 - Enlazar la funcionalidad `javascript` con la página `html`.
 - Mostrar el resultado en la página web por medio del método `document.write()`
 
-
 {% next "Comencemos" %}
-
 
 ## Crea un archivo `index.html`
 
@@ -36,24 +33,24 @@ Para llevar a adelante este reto necesitaremos completar las siguientes tareas:
     <meta charset="utf-8" />
     <title></title>
   </head>
-  <body>
-
-  </body>
+  <body></body>
 </html>
 ```
 
 #### ... y la personalizamos un poco
 
-Cambiamos el contenido de la etiqueta `<title>` con el texto `Edad en segundos`
+Cambiamos el contenido de la etiqueta `<title>` con el texto `Ganancias y perdidas`
+
 ```html
-    <title>Edad en segundos</title>
+<title>Ganancias y perdidas</title>
 ```
 
-Y crearemos dentro de la etiqueta `<body>` un heading principal (etiqueta `<h1>`),
-que diga _Coloca tu edad en años_.
+Y creamos dentro de la etiqueta `<body>` un heading principal (etiqueta `<h1`),
+que diga _Coloca tus ganancias, costos y porcentaje de impuestos_.
+
 ```html
   <body>
-    <h1>Coloca tu edad en años<h1/>
+    <h1>Coloca tus ganancias, costos y porcentaje de impuestos<h1/>
   </body>
 ```
 
@@ -64,12 +61,11 @@ Revisa el resultado en tu navegador, debería ser algo parecido a esto
 
 {% next "Funcionalidad JS" %}
 
-
 ### Crea un archivo `app.js`
 
 [FIXME: video o screenshots o gif de como crear un archivo en el navegador de archivos]
 
-### Crea tu _prompt_ y guarda el valor retornado en una variable
+### Crea varios _prompt_ y guarda los valores que retornan en distintas variables
 
 {% spoiler %}
 El método `window.prompt` de la web, es una función que toma un único argumento obligatorio,
@@ -84,7 +80,9 @@ Si quieres saber más sobre el método `window.prompt` revisa su [documentación
 {% endspoiler %}
 
 ```js
-const edad = prompt('¿Cuál es tu edad?');
+const ingreso = prompt("¿Cuál es el ingreso?");
+const costo = prompt("¿Cuál es el costo?");
+const porcentajeImpuesto = prompt("¿Cuál es el porcentaje(%) de impuestos?");
 ```
 
 ### Integrar la funcionalidad `javascript` con la página `html`
@@ -97,11 +95,11 @@ Esto es porque el archivo `index.html` nunca está llamando a la funcionalidad
 Para ello necesitamos importar el archivo `app.js` dentro de nuestro etiqueta `<body>`:
 
 ```html
-  <script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="app.js"></script>
 ```
 
 {% spoiler %}
-Valida que la variable `edad` tiene el valor ingresado por la usuaria, usando
+Valida que las variables `ingreso`, `costo`, y `porcentajeImpuesto` tiene el valor ingresado por la usuaria, usando
 `console.log`
 
 ```js
@@ -111,23 +109,26 @@ console.log(edad);
 [FIXME: video ver valores de variables en la consola]
 {% endspoiler %}
 
-### Convierte la edad a segundos
+### Calcula el resultado de ganancia bruta, ganancia neta e impuestos.
 
-Dado que dentro de un año existe **365** días, y cada día tiene **24** horas, y que cada
-hora cuenta con **60** minutos y cada minuto con **60** segundos, entonces convertimos
-los años en segundos siguiendo esa lógica:
+INSERTA EXPLICACION AQUI
 
 ```js
-const edadEnSegundos = edad * 365 * 24 * 60 * 60;
+const gananciaBruta = ingreso - costos;
+const impuestos = (gananciaBruta * porcentajeImpuesto) / 100;
+const gananciaNeta = gananciaBruta - impuestos;
 ```
 
 {% spoiler %}
-Valida que la variable `edadEnSegundos` tiene el valor calculado, usando
+Valida que las variables `gananciaBruta`, `impuestos`, y `gananciaNeta` tienen el valor calculado, usando
 `console.log`
 
 ```js
-console.log(edadEnSegundos);
+console.log(gananciaBruta);
+console.log(impuestos);
+console.log(gananciaNeta);
 ```
+
 {% endspoiler %}
 
 ### La imprimimos en pantalla
@@ -139,7 +140,5 @@ Si quieres saber más puedes revisar su
 [documentación en MDN](https://developer.mozilla.org/es/docs/Web/API/Document/write).
 
 ```js
-document.write("Tu edad es " + edad + ", en segundos sería " + edadEnSegundos);
+document.write("Tu ganancia neta es " + gananciaNeta);
 ```
-
-## Cierre ? hablar de conversion automatica de tipos de datos ????
