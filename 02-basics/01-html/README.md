@@ -32,6 +32,7 @@ Si quieres saber más revisa su [documentación en MDN](https://developer.mozill
 
 ### Sintaxis básica
 
+Crea un archivo `index.html`. 
 La primera línea que necesita en un archivo HTML es `<!DOCTYPE html>`.
 Esto le permite al navegador (como Chrome, Firefox, Internet Explorer o Safari)
 saber que el tipo de este documento es HTML y no es solo un archivo de texto normal.
@@ -216,12 +217,52 @@ es envuelto en comillas, seguiendo esa estructura:
 <etiqueta atributo="valor del atributo "></etiqueta>
 ```
 
-[ Poner texto para ejemplos de href y de img ]
-
-> Puede leer más sobre atributos en ese [link aqui](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#attributes)
+Los hipervínculos (enlaces) son textos o imágenes en las que puede hacer click
+y lo llevan a otra página. Cada vez que utiliza un sitio web, utiliza enlaces para pasar
+de una página a la siguiente. Puede agregar un enlace usando la etiqueta de anclaje (a).
+Además de la etiqueta `a`, debe agregar el atributo href _(hypertext reference)_ que es donde vas el sitio web o el archivo. En conjunto, su enlace debería verse así:
 
 ```html
-<p>Puede leer más sobre atributos en ese <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#attributes">link aqui</a>.</p>
+  <a href="segundoArchivo.html">Mi Otra Pagina</a>
 ```
 
-[ explicar sobre la tag meta y el atributo charset ]
+Añade esa etiqueta en lo `body` del HTML, y crea un otro archivo `segundoArchivo.html` con un body distinto para testear
+
+{% spoiler %}
+
+Su primer archivo `index.html` puede ser algo parecido de eso:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+  </head>
+  <body>
+    <h1>Eso es el primer archivo!!</h1>
+    <a href="segundoArchivo.html">Mi Otra Pagina</a>
+  </body>
+</html>
+```
+
+Su segundo archivo `segundoArchivo.html` puede ser algo parecido de eso:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+  </head>
+  <body>
+    <h1>Eso es el segundo archivo!!</h1>
+  </body>
+</html>
+```
+
+Puede leer más sobre atributos en ese [link aqui](https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/Getting_started#atributos)
+
+{% endspoiler %}
+
+[ Explicación y ejemplo de class e ID ]
