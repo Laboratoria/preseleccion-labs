@@ -14,7 +14,7 @@ Asignar _valores_ a _variables_.
 
 Para llevar a adelante este reto necesitas completar las siguientes tareas:
 
-- Abrir el archivo `coinConvert.js` que tiene una _función flecha_ llamada `coinConvert`
+- Abrir el archivo `coinConvert.js` que tiene una _función_ llamada `coinConvert`
 - Calcular los valores de las varibles:
   - `soles`
   - `pesosMexicanos`
