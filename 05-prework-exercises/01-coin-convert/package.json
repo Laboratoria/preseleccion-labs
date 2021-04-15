@@ -1,0 +1,17 @@
+{
+  "name": "01-coin-convert",
+  "version": "1.0.0",
+  "description": "a program to exchange dollars into other currencies",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --verbose --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "02-restaurant-bill",
+  "version": "1.0.0",
+  "description": "a program to calculate the final bill each has to pay",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --verbose --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}
