@@ -4,7 +4,7 @@
 
 Imagina que has salido a comer con tus mejores amigas. La cuenta total
 del consumo es de 50 dólares, pero a eso debes agregarle el 10% de Impuesto al
-Valor Agregado (IVA). Quieres dividir la cuenta equitativamente entre las cinco.
+Valor Agregado (IVA). Quieres dividir la cuenta equitativamente entre tu y tus amigas.
 Para eso vamos a crear este programa.
 
 ## Análisis y lista de tareas
