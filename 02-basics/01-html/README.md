@@ -1,6 +1,6 @@
 # HTML basics
 
-- Tipo: `lectura`
+- Tipo: `practice`
 - Formato: `self-paced`
 - Duración: `60min`
 
@@ -54,9 +54,7 @@ va **todo el HTML** de su archivo, y puede agregarlo abriéndolo con `<html>` y 
 </html>
 ```
 
-{% spoiler %}
 **ALERTA:** `<!DOCTYPE html>` es una declaración y no una etiqueta HTML!
-{% endspoiler %}
 
 Entre las etiquetas de html, vamos a tener las etiquetas de apertura y cierre de `head`
 y entre ellas otras dos etiquetas de `meta` y `title`
@@ -89,7 +87,7 @@ vamos a poner el elemento `body` que contiene todo el _contenido_ de un document
 
 {% spoiler "Pista" %}
 
-El código al final deve estar parecido con eso:
+El código al final debe estar parecido con eso:
 
 ```html
 <!DOCTYPE html>
@@ -108,7 +106,7 @@ El código al final deve estar parecido con eso:
 
 Eso es **_indentación de código_** y es usada para facilitar la lectura del código.
 
-Darse cuenta de que ese mismo código sin indentación es muy más dificil de leer y entender:
+Fíjate que ese mismo código sin indentación es muy más dificil de leer y entender:
 
 ```html
 <!DOCTYPE html>
@@ -129,8 +127,8 @@ Darse cuenta de que ese mismo código sin indentación es muy más dificil de le
 
 ### Comentarios
 
-Los _comentarios_ permitem dejar notas sobre su código, su funcionalidad o indicar
-los cambios necesarios para el futuro para las personas que leen o editan su código.
+Los _comentarios_ permiten dejar notas sobre su código, su funcionalidad o indicar
+los cambios necesarios para el futuro, a las personas que leen o editan tu código.
 
 Se visualizan así:
 
@@ -147,7 +145,7 @@ que leen y editan el HTML.
 ## Elementos populares
 
 Un elemento muy comun es el elemento de _heading_ `h1` (encabezado).
-Hay 6 niveles `h1` hasta `h6`, sendo `h1` el nivel de sección más alto o más importante.
+Hay 6 niveles `h1` hasta `h6`, siendo `h1` el nivel de sección más alto o más importante.
 
 ```html
 <h1>Este es heading 1</h1>
@@ -173,7 +171,7 @@ entre las etiquetas de apertura y de cierre es el contenido del elemento.
 
 {% spoiler %}
 Testea añadir párrafos y encabezados de varios niveles en su código,
-pero recuerde que todo lo que desea que se muestre en su página web
+pero recuerda que todo lo que quieres que se muestre en su página web
 debe ir entre las etiquetas de apertura `<body>` y de cierre `</body>`.
 
 Existen muchos más elementos y etiquetas HTML, que aprenderás en su momento.
@@ -181,14 +179,14 @@ Existen muchos más elementos y etiquetas HTML, que aprenderás en su momento.
 
 ### Formato de texto
 
-Si escribe un párrafo, es posible que desee formatear una palabra o una frase, por ejemplo:
+Si escribe un párrafo, es posible que desee darle formato una palabra o una frase, por ejemplo:
 
 > "HTML **no es** un lenguaje de programación,
 > es un **_lenguaje de marcado_** que es utilizado para crear la estructura
 > de un _sitio web_. Para crear este sitio, se empieza creando
 > un documento en formato HTML."
 
-Una forma de poner cualquier texto en negrito o cursivo es utilizando
+Una forma de poner cualquier texto en negrita o cursiva es utilizando
 las etiquetas `strong` y `em`.
 
 ```html
@@ -200,8 +198,8 @@ un documento en formato HTML.
 ```
 
 {% spoiler %}
-Testea formatar palavras y párrafos.
-Rero recuerde que todo lo que desea que se muestre en su página web
+Testea formatear palabras y párrafos.
+Pero recuerda que todo lo que deseas que se muestre en su página web
 debe ir entre las etiquetas de apertura `<body>` y de cierre `</body>`.
 {% endspoiler %}
 
@@ -211,7 +209,7 @@ debe ir entre las etiquetas de apertura `<body>` y de cierre `</body>`.
 
 Los atributos contienen información extra sobre el elemento y son escritos
 en _las etiquetas de inicio._ El valor del atributo sigue después del signo `=` y
-es envuelto en comillas, seguiendo esa estructura:
+está envuelto en comillas, seguiendo esta estructura:
 
 ```html
 <etiqueta atributo="valor del atributo "></etiqueta>
