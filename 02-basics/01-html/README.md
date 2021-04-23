@@ -66,15 +66,13 @@ y entre ellas otras dos etiquetas de `meta` y `title`
   </head>
 ```
 
-{% spoiler %}
-En la etiqueta de `head` es donde contiene la información sobre la página,
-llamadas de *metadatos*.
-
-El elemento `meta` no hay etiqueta de cierre y representa [metadatos](https://developer.mozilla.org/es/docs/Glossary/Metadata)
-
-El elemento `title` define el título del documento que se muestra
-en la barra de título del navegador o en la pestaña de una página
-{% endspoiler %}
+> En la etiqueta de `head` es donde contiene la información sobre la página,
+> llamadas de *metadatos*.
+>
+> El elemento `meta` no hay etiqueta de cierre y representa [metadatos](https://developer.mozilla.org/es/docs/Glossary/Metadata)
+>
+> El elemento `title` define el título del documento que se muestra
+> en la barra de título del navegador o en la pestaña de una página
 
 Por fin, después de la etiqueta de **cierre** de `head`,
 vamos a poner el elemento `body` que contiene todo el _contenido_ de un documento HTML
